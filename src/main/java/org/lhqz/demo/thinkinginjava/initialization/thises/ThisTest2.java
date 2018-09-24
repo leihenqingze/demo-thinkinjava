@@ -1,6 +1,6 @@
 package org.lhqz.demo.thinkinginjava.initialization.thises;
 
-public class ThisTest {
+public class ThisTest2 {
 
     public void f1() {
         f2();
@@ -11,7 +11,7 @@ public class ThisTest {
     }
 
     public static void main(String[] args) {
-        ThisTest thisTest = new ThisTest();
+        ThisTest2 thisTest = new ThisTest2();
         thisTest.f1();
     }
 
